@@ -9,10 +9,10 @@ Capybara Culerity Complete
     
 ### Test::Unit
 
-   ...
-   class Test::Unit::TestCase
-     include CapybaraCulerityComplete::Capybara
-   end
-   ...
+    ...
+    class Test::Unit::TestCase
+      include CapybaraCulerityComplete::Capybara
+    end
+    ...
 
 Copyright Sam Woodard 2011.  Released under the MIT License.
