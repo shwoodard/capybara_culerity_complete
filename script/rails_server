@@ -1,0 +1,1 @@
+rackup -I./test/fixtures/rails_root -p 3000 -s thin config_rails.ru

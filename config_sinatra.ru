@@ -1,0 +1,2 @@
+require 'capybara_culerity_complete_test_app'
+run CapybaraCulerityCompleteTestApp
