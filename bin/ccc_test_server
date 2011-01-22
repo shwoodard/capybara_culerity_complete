@@ -1,1 +1,1 @@
-sh "java -Xms32m -Xmx1024m -cp #{File.expand_path("../..", __FILE__)}/vendor/jruby-complete-1.5.6.jar com.martiansoftware.nailgun.NGServer"
+system "java -Xms32m -Xmx1024m -cp #{File.expand_path("../..", __FILE__)}/vendor/jruby-complete-1.5.6.jar com.martiansoftware.nailgun.NGServer"

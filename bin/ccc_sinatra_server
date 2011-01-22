@@ -1,1 +1,1 @@
-sh "rackup -I.#{File.expand_path("../..", __FILE__)}/test/fixtures/sinatra_root -p 3000 -s thin config_sinatra.ru"
+system "rackup -I.#{File.expand_path("../..", __FILE__)}/test/fixtures/sinatra_root -p 3000 -s thin config_sinatra.ru"
