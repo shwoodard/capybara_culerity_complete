@@ -1,0 +1,3 @@
+module CapybaraCulerityComplete
+  # Your code goes here...
+end
