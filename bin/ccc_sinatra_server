@@ -1,3 +1,1 @@
-require 'rubygems'
-require 'rake'
-sh "rackup -I.#{File.expand_path("../..", __FILE__)}/test/fixtures/sinatra_root -p 3000 -s thin #{File.expand_path("../..", __FILE__)}/config_sinatra.ru"
+system "rackup -I.#{File.expand_path("../..", __FILE__)}/test/fixtures/sinatra_root -p 3000 -s thin #{File.expand_path("../..", __FILE__)}/config_sinatra.ru"
