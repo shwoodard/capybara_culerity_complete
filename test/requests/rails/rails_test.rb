@@ -12,11 +12,11 @@ class RailsTest < Test::Unit::TestCase
     assert_equal Capybara::Node::Element, find('#container').class
   end
 
-  # def test_fails_wihout_container
-  #   visit '/fail'
-  #   
-  #   assert_raises(Capybara::ElementNotFound) do
-  #     find('#container')
-  #   end
-  # end
+  def test_fails_wihout_container
+    visit '/fail'
+    
+    assert_raises(Capybara::ElementNotFound) do
+      find('#container')
+    end
+  end
 end
