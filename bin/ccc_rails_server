@@ -1,1 +1,1 @@
-system "rackup -I#{File.expand_path("../..", __FILE__)}/test/fixtures/rails_root -p 3000 -s thin #{File.expand_path("../..", __FILE__)}/config_rails.ru"
+`rackup -I#{File.expand_path("../..", __FILE__)}/test/fixtures/rails_root -p 3000 -s thin #{File.expand_path("../..", __FILE__)}/config_rails.ru`
